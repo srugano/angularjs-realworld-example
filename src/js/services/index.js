@@ -4,5 +4,8 @@ import angular from 'angular';
 let servicesModule = angular.module('app.services', []);
 
 
+// Services
+import UserService from './user.service';
+servicesModule.service('User', UserService);
 
 export default servicesModule;
