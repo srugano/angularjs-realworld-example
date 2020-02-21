@@ -1,6 +1,6 @@
 const AppConstants = {
-  // api: 'http://localhost:3000/api',
-  api: 'https://conduit.productionready.io/api',
+  api: 'http://localhost:8000/api',
+  // api: 'https://demo.productionready.io/api',
   jwtKey: 'jwtToken',
   appName: 'Angular is Awesome'
 };
